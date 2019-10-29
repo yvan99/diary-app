@@ -1,0 +1,77 @@
+
+	body{
+	    margin: 0;
+      padding: 1em;
+      font: normal 18px sans-serif;
+      background-image: url('../img/coffee.jpg');
+      background-repeat: no-repeat;
+      background-size:cover; 
+      background-position: center center;
+  }
+
+	.container {
+    max-width: 500px;
+    background-color: #fff;
+    margin: 10px auto;
+    overflow: hidden;
+    padding: 20px;
+    color: #4c4e56;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container label {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.container .heading h1 {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #4c4e56;
+}
+
+.transparent {
+    opacity: 0.2;
+}
+
+input[type=text], input[type=password], input[type=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #3A56B7;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+label{
+	font-size: 18px;
+}
+input[type=submit]:hover {
+  background-color: #f2f2f2;
+  color: black;
+}
+.footer{
+  margin-top:10%;
+}
+
+.strong{
+  color: #fff;
+}
+.headertitle{
+  color: black;
+  text-shadow: 1px 1px 1px #000000;
+}
+.logoimage{
+  width:160px;
+}
