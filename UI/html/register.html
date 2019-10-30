@@ -9,6 +9,8 @@
 
 <link rel="stylesheet" href="../css/main.css">
 
+<script src="./js/validation.js"></script>
+
 <title>My Diary</title>
 
 </head>
@@ -25,37 +27,38 @@
 		<h1 class="headertitle">My Diary Online Journal !</h1>
 
 		<hr>
-		<img src="../img/logo.png" class="logoimage">
+		<img src="../img/logo.PNG" class="logoimage">
 	</div>
 
 
-		<form method="POST" autocomplete="off" enctype="multipart/form-data">
+		<form method="POST" name="register" autocomplete="off" enctype="multipart/form-data">
 
-			<table border="0">
+			<table >
+
 				<h2>Create Account!</h2>
 
 				<tr>
-					<td><label>Full Names:</label></td>
+					<td><label>First Name:</label></td>
 
-					<td><input type="text" name="" placeholder="Enter your names" required="Please fill your Username"></td>
+					<td><input type="text" name="" placeholder="Ex :John" required="Please fill your Username"></td>
 				</tr>
 
 				<tr>
-					<td><label>Email: </label></td>
+					<td><label>Last Name: </label></td>
 
-					<td><input type="email" name="" placeholder="Enter email" required="Please fill your Username"></td>
+					<td><input type="text" name="" placeholder="Ex : Doe" required="Please fill your Username"></td>
+				</tr>
+
+				<tr>
+
+					<td><label>Email:</label></td>
+					<td><input type="email" placeholder="Johndoe12@mail.com" name="" required="Please fill your Password"></td>
 				</tr>
 
 				<tr>
 
 					<td><label>Password:</label></td>
-					<td><input type="password" placeholder="Enter Password" name="" required="Please fill your Password"></td>
-				</tr>
-
-				<tr>
-
-					<td><label>Confirm Password:</label></td>
-					<td><input type="password" placeholder="Repeat Password" name="" required="Please fill your Password"></td>
+					<td><input type="password" placeholder="Atleast 8 characters" name="" required="Please fill your Password"></td>
 				</tr>
 
 
@@ -78,7 +81,7 @@
 	</div>
 
 	<br>
-		<footer class="footeregister">
+		<footer class="footer">
 
 		<center>
 
