@@ -1,0 +1,34 @@
+{
+    "name": "andela-work",
+    "version": "1.0.0",
+    "description": "this is my diary web application",
+    "main": "app.js",
+    "scripts": {
+        "start": "nodemon server.js",
+        "start:server": "babel-node -- server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/yvan99/diary-app.git"
+    },
+    "author": "ivan",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/yvan99/diary-app/issues"
+    },
+    "homepage": "https://github.com/yvan99/diary-app#readme",
+    "devDependencies": {
+        "@babel/cli": "^7.6.4",
+        "@babel/core": "^7.6.4",
+        "@babel/node": "^7.6.3",
+        "@babel/preset-env": "^7.6.3",
+        "express": "^4.17.1",
+        "morgan": "^1.9.1",
+        "nodemon": "^1.19.4"
+    },
+    "dependencies": {
+        "bcrypt": "^3.0.6",
+        "body-parser": "^1.19.0",
+        "jsonwebtoken": "^8.5.1"
+    }
+}
